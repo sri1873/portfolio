@@ -1,0 +1,10 @@
+.nav-links{
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    padding: 2em;
+    color: white;
+}
