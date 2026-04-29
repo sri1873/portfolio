@@ -3,6 +3,11 @@
     align-items: center;
     justify-content: center;
     height: 90vh;
+    
+}
+.app{
+    background-image: url('../icons/short_logo.png');
+    background-position: top;
 }
 .hero{    
     max-width: 40%;

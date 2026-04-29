@@ -2,10 +2,11 @@ import 'O:/Portfolio/portfolio/src/assets/styles/App.css';
 import NavBar from './Components/NavBar';
 import Footprint from './Components/Footprint';
 import Experience from './Components/Experience';
+import Project from './Components/Project';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <NavBar />
       <div className="hero-container">
 
@@ -15,7 +16,11 @@ const App = () => {
         </div>
       </div>
       <Footprint />
-      <Experience/>
+      <Experience />
+      <Footprint />
+      <Experience />
+      <Project />
+      
     </div>
   );
 }
