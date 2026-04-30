@@ -3,6 +3,8 @@ import NavBar from './Components/NavBar';
 import Footprint from './Components/Footprint';
 import Experience from './Components/Experience';
 import Project from './Components/Project';
+import Techstack from './Components/Techstack';
+import Contact from './Components/Contact';
 
 const App = () => {
   return (
@@ -17,10 +19,9 @@ const App = () => {
       </div>
       <Footprint />
       <Experience />
-      <Footprint />
-      <Experience />
       <Project />
-      
+      <Techstack />
+      <Contact />
     </div>
   );
 }
